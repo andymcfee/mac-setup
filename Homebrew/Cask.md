@@ -29,47 +29,28 @@ $ brew tap caskroom/versions
 You can now install alternate versions of Casks.
 
 ```sh
-$ brew cask install iterm2-beta
+$ brew cask install google-chrome-canary
 ```
 
-### Quick look plugins
+### App Installation
 
-Some [plugins](https://github.com/sindresorhus/quick-look-plugins) to enable different files to work with Mac Quicklook. Includes features like syntax highlighting, markdown rendering, preview of jsons, patch files, csv, zip files etc.
+Here are some apps you should now be able to install with Homebrew Cask
 
     $ brew cask install atom
     $ brew cask install box-sync
     $ brew cask install dropbox
     $ brew cask install evernote
-    $ brew cask install qlprettypatch
-    $ brew cask install quicklook-csv
-    $ brew cask install betterzipql
-    $ brew cask install webpquicklook
-    $ brew cask install suspicious-package
-
-### App Installation
-
-I'll now cover installation of the apps that I have mentioned in the apps section using cask.
-
-    $ brew cask install airmail
-    $ brew cask install alfred
-    $ brew cask install android-file-transfer
-    $ brew cask install asepsis
-    $ brew cask install appcleaner
-    $ brew cask install caffeine
-    $ brew cask install cheatsheet
-    $ brew cask install doubletwist
-    $ brew cask install dropbox
+    $ brew cask install firefox
+    $ brew cask install firefox-beta
+    $ brew cask install firefox-nightly
+    $ brew cask install firefoxdeveloperedition
     $ brew cask install google-chrome
-    $ brew cask install google-drive
-    $ brew cask install google-hangouts
-    $ brew cask install flux
-    $ brew cask install latexian
-    $ brew cask install onepassword
-    $ brew cask install pdftk
-    $ brew cask install spectacle
-    $ brew cask install sublime-text
-    $ brew cask install superduper
-    $ brew cask install totalfinder
-    $ brew cask install transmission
-    $ brew cask install valentina-studio
-    $ brew cask install vlc
+    $ brew cask install google-chrome-canary
+    $ brew cask install microsoft-lync
+    $ brew cask install origin
+    $ brew cask install skitch
+    $ brew cask install skype
+    $ brew cask install slack
+    $ brew cask install spotify
+    $ brew cask install vagrant
+    $ brew cask install virtualbox
