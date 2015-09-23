@@ -1,35 +1,25 @@
 # Node.js
 
-## Install [Node.js](http://nodejs.org/) with Homebrew:
-
-    $ brew update
-    $ brew install node
-
-Node modules are installed locally in the `node_modules` folder of each project by default, but there are at least two that are worth installing globally. Those are [CoffeeScript](http://coffeescript.org/) and [Grunt](http://gruntjs.com/):
-
-    $ npm install -g coffee-script
-    $ npm install -g grunt-cli
-
-
 ## Install [Node.js](http://nodejs.org/) with [nvm](https://github.com/creationix/nvm) (Node Version Manager):
 
 #### Install nvm
-    
-    $ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
 
-#### Install nodejs
+    $ brew install nvm
+
+#### Install Nodejs via nvm
 
     $ nvm  # check the nvm use message
     $ nvm install stable  # install most recent nodejs stable version
     $ nvm ls  # list installed node version
     $ nvm use stable  # use stable as current version
     $ nvm ls-remote  # list all the node versions you can install
-    $ nvm alias default stable  # set the installed stable version as the default node 
+    $ nvm alias default stable  # set the installed stable version as the default node
 
-Node modules are installed locally in the `node_modules` folder of each project by default, but there are at least two that are worth installing globally. Those are [CoffeeScript](http://coffeescript.org/) and [Grunt](http://gruntjs.com/):
+Node modules are installed locally in the `node_modules` folder of each project by default, but there are at least three that are worth installing globally. Those are [Grunt](http://gruntjs.com/), [Gulp](http://gulpjs.com/), and [Bower](http://bower.io/):
 
-    $ npm install -g coffee-script
     $ npm install -g grunt-cli
+    $ npm install -g gulp
+    $ npm install -g bower
 
 ## Npm usage
 

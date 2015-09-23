@@ -13,14 +13,33 @@ Install Homebrew-cask is really straight forward. We just need to add the cask t
 
 It is really simple to check if the app is supported by cask by going to the search page on [caskroom.io](http://caskroom.io/)
 
+### homebrew-cask-versions
+
+Here you'll find alternate versions of Casks for the [homebrew-cask](https://github.com/caskroom/homebrew-cask)
+project.
+
+#### Usage
+
+After you install homebrew-cask, run the following command:
+
+```sh
+$ brew tap caskroom/versions
+```
+
+You can now install alternate versions of Casks.
+
+```sh
+$ brew cask install iterm2-beta
+```
+
 ### Quick look plugins
 
 Some [plugins](https://github.com/sindresorhus/quick-look-plugins) to enable different files to work with Mac Quicklook. Includes features like syntax highlighting, markdown rendering, preview of jsons, patch files, csv, zip files etc.
 
-    $ brew cask install qlcolorcode
-    $ brew cask install qlstephen
-    $ brew cask install qlmarkdown
-    $ brew cask install quicklook-json
+    $ brew cask install atom
+    $ brew cask install box-sync
+    $ brew cask install dropbox
+    $ brew cask install evernote
     $ brew cask install qlprettypatch
     $ brew cask install quicklook-csv
     $ brew cask install betterzipql

@@ -1,6 +1,6 @@
 # Using Homebrew
 
-To install a package (or **Formula** in Homebrew vocabulary) simply type:
+To install a package (or **Formula** in Homebrew vocabulary) simply type (without the `$`):
 
     $ brew install <formula>
 
