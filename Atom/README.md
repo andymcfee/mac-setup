@@ -18,10 +18,10 @@ Atom can be accessed from the command line with the command `atom`.
 
 Open up the current directory in Atom:
 ```
-$ atom .
+atom .
 ```
 
 Open up a specific directory in Atom:
 ```
-$ atom path/to/directory
+atom path/to/directory
 ```

@@ -1,16 +1,16 @@
 # Zsh
 
-We'll install `zsh` for all the features offered by `oh-my-zsh`. The installation and usage is really intutive. The `env.sh` is a config file we maintain so as to not pollute the `~/.zshrc` too much. `env.sh` holds aliases, exports, path changes etc.
+We'll install `zsh` for all the features offered by `oh-my-zsh`. The installation and usage is really intuitive. The `env.sh` is a config file we maintain so as to not pollute the `~/.zshrc` too much. `env.sh` holds aliases, exports, path changes etc.
 
 ### Zsh
 
 Install zsh and zsh completions using homebrew
 
-        brew install zsh zsh-completions
+    brew install zsh zsh-completions
 
 Install oh-my-zsh on top of zsh to getting additional functionality
 
-        curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+    curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
 if still in the default shell, change default shell to zsh manually
 
@@ -18,16 +18,16 @@ if still in the default shell, change default shell to zsh manually
 
 edit the `.zshrc` by opening the file in a text editor
 
-        ZSH_THEME=pygmalion
-        # Use sublimetext for editing config files
-        alias zshconfig="subl ~/.zshrc"
-        alias envconfig="subl ~/Projects/config/env.sh"
-        plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)
-        # Add env.sh
-        . ~/Projects/config/env.sh
+    ZSH_THEME=pygmalion
+    # Use atom for editing config files
+    alias zshconfig="atom ~/.zshrc"
+    alias envconfig="atom ~/Projects/config/env.sh"
+    plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)
+    # Add env.sh
+    . ~/Projects/config/env.sh
 
 ### env.sh
-~~~
+
     #!/bin/zsh
 
     # PATH
@@ -54,4 +54,3 @@ edit the `.zshrc` by opening the file in a text editor
 
     # Aliases
     alias cppcompile='c++ -std=c++11 -stdlib=libc++'
-~~~
